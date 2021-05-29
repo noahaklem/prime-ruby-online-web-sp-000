@@ -1,9 +1,9 @@
 # Add  code here!
 def prime?(num)
-  if int == 0 || int == 1 || int < 0
+  if num == 0 || num == 1 || num < 0
     false
   else
-    .to_a.all? {|i| int % i == 0 }
+    (num..num)to_a.all? {|i| int % i == 0 }
   end
 end
   
